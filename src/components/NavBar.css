@@ -1,0 +1,7 @@
+/** Main nav bar */
+#nav-toolbar {
+    --background: var(--ion-color-primary-tint);
+}
+.nav-button {
+    color: var(--ion-color-primary-contrast);
+}

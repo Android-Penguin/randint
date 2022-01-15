@@ -1,0 +1,25 @@
+/** Card component (ion-card) */
+.dice-card {
+    height: auto;
+    padding: 15px;
+    --background: var(--ion-color-primary-tint);
+}
+/** Image container  */
+.dice-card > div {
+    width: 100%;
+    aspect-ratio: 1.5 / 1;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 0 5px yellow; */
+}
+/** Dice icon */
+.dice-card img {
+    height: 100%;
+    filter: invert(100%);
+}
+.dice-card h1 {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 2.8rem;
+    color: var(--ion-color-primary-contrast);
+}
